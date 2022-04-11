@@ -63,7 +63,7 @@ row_url = []
 row_file_name = []
 row_status = []
 
-for url in tqdm(ls_urls[0:2]):
+for url in tqdm(ls_urls):
     html_dict = {}
     try:
         driver.get(url)
