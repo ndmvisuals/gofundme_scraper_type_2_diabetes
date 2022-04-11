@@ -57,10 +57,9 @@ while "Fundraisers for" in page_result:
     i = i +1
     print(f"Page {i} done")
     
- ### Scrape HTML and save in folder
+ ### Scrape HTML and save in folder 
  
- 
- row_url = []
+row_url = []
 row_file_name = []
 row_status = []
 
